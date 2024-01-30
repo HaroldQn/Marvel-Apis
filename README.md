@@ -15,7 +15,7 @@ Este proyecto utiliza la API de Marvel para realizar búsquedas y mostrar inform
 ## Configuración del Proyecto
 1. **Clonar Repositorio:**
     ```bash
-    git clone https://github.com/HarolQn/marvel.git
+    git clone https://github.com/HarolQn/marvel-apis.git
     ```
 2. **Abrir en el Navegador:**
    Abre el archivo `index.html` en tu navegador.
