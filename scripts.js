@@ -12,7 +12,7 @@ myForm.addEventListener("submit", e => {
     searchMarvelCharacter();
 });
 
-// Función para dibujar los héroes en el DOM
+// Función para dibujar los héroes en el DOM    
 const draw = heroes => {
     myContent.innerHTML = "";
 
@@ -64,7 +64,8 @@ const searchMarvelCharacter = async () => {
     const encodeName = encodeURI(startWith.value)
     
     // Construir la URL de la API con el nombre codificado y la clave API
-    const marvelURL = `https://gateway.marvel.com:443/v1/public/characters?nameStartsWith=${encodeName}&apikey=${apiKey}`
+    const marvelURL = `https://gateway.marvel.com:443/v1/public/characters?nameStartsWith=${encodeName}&apikey=${apiKey}`;
+
     
     // Realizar la solicitud a la API utilizando Axios
     const respuesta = await axios.get(marvelURL);

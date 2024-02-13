@@ -7,19 +7,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <title>Marvel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="icon" type="image/png"  href="./images/logo.png">
+
+    <title>Marvel-Apis</title>
 </head>
 
 <body class="container mt-5">
     <div class="jumbotron">
-        <h1 class="display-4">Marvel</h1>
-        <p class="lead">LO QUE HAREMOS ES CONSUMIR UNA API DE MARVEL PARA HACER CONSULTAS MASIVAS</p>
+        <h1 class="display-4">Busqueda de personajes de Marvel</h1>       
+        <p class="lead">Consulta tus personajes favoritos de Marvel con nuestra API</p>
         <form id="myForm">
             <div class="form-group">
-                <label for="startWith">Nombre</label>
+                <label for="startWith">Ingrese el nombre:</label>
                 <input type="text" class="form-control" id="startWith" required>
             </div>
-            <button type="submit" class="btn btn-primary" id="btnSearch">Consultar</button>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" id="btnSearch">Consultar <i class="bi bi-search"></i></button>
+                <a href="https://github.com/HaroldQn" class="btn btn-secondary" target="_parent" style="float: right;"><i class="bi bi-github"></i> Github</a>
+                <!-- Con 'margin-right: 8px;' Podemos dar un espacio entre los botones. -->
+                <a href="https://www.instagram.com/uwbs.hardd/" class="btn btn-warning" target="_parent" style="float: right; margin-right: 8px;"><i class="bi bi-instagram"></i> Instagram</a>
+                
+            </div>
         </form>
     </div>
 
